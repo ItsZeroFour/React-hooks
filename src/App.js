@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import State from "./examples/state";
+// import Effect from "./examples/effect";
+// import Ref from "./examples/ref";
+// import Memo from "./examples/memo";
+// import Callback from "./examples/callback";
+
+// import Context from "./examples/context";
+// import Main from "./Main";
+// import Alert from "./alert/Alert";
+// import { AlertProvider } from "./alert/AlertContext";
+
+import UseOwnHook from "./hooks/useOwnHook";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <AlertProvider value={alert}>
+      <div className="App pt-3">
+        {/* <State /> */}
+        {/* <Effect /> */}
+        {/* <Ref /> */}
+        {/* <Memo /> */}
+        {/* <Callback /> */}
+
+        {/* <Alert />
+        <Main toggle={() => {}} /> */}
+
+        <UseOwnHook />
+      </div>
+    // </AlertProvider>
   );
 }
 
